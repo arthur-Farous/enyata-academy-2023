@@ -1,0 +1,74 @@
+
+/* This is the css for the box display */
+
+.box3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    width: 350px;
+    height: 620px;
+    background-color: dodgerblue;
+    border: 1px solid #000000;
+    margin: 30px;
+}
+
+h3 {
+    color: white;
+}
+
+.insideBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*color: white;*/
+}
+
+.box1 {
+    width: 275px;
+    height: 240px;
+    background-color: tomato;
+    border: 1px solid #ffffff;
+    margin: 20px;
+}
+
+.box2 {
+    width: 275px;
+    height: 240px;
+    background-color: #8F00FF;
+    border: 1px solid #ffffff;
+    margin: 20px;
+}
+
+
+
+/* This is the css for responsive interface */
+
+
+.box {
+    height: 150px;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .box {
+      width: calc(25% - 20px);
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 auto;
+      }
+  }
+
+      @media (min-width: 360px) and (max-width: 640px) {
+      .box {
+        width: calc(100% - 20px); 
+      }
+      .container{
+        flex-direction: row; 
+      }
+
+    }
