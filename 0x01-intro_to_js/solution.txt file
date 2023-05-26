@@ -1,0 +1,52 @@
+Question 1
+'let' and "const" when we are declaring variables in javascript.
+
+The 'let' keyword is used for variables that can be reassigned.
+However,variables that are declared by the "let" keyword can be re-assigned which of course allows variables for alteration. 
+
+
+"const" creates "constant" variables that cannot be reassigned another value unless they are redeclared.
+"let" creates variables tgat can be reassigned.
+
+What distinquishes the 'let' and 'const' keywords from the var keyword are quiet are listed below;
+ a.'var' declarations are globally scoped or function scoped while 'let' and 'const' are block scoped. 
+ b.'var' variables can be reassigned while 'let' and 'const' variables can not.
+ c. 'var' variables are declared using the var keyword while 'let' and 'const' variables are declared using the 'let' and 'const' keywords respectively.
+ d'const' variables are immutable while let and var variables are not. 
+
+
+
+Question 2
+A variable can be used after defining it by referencing its variable name.
+
+Question 3
+A string can be declared by enclosing characters within single quotes ('') or double quotes ("").
+Example;   
+      let myString_a = "I am a good software developer";
+      let myString_b = 'Thank you Enyata for this great opportunity';
+      
+
+Question 4
+Yes,We can create strings by using both single quotes and double quotes interchangeably.  
+However,it is advisable that we use one particular code style in your codes.
+
+Question 5 
+"9" is a string data type because of the quotes(" ").
+ 9 is a interger or  number data type.
+
+
+Question 6
+Declaration means introducing a new variable.This is normally done using the keywords 'var','let' or 'const'
+Example;
+ const myText = 'Fufu';
+ whilst redeclaration means declaring a variable again in the same scope.
+ Example; const myText = 'banku';
+
+Assignment means assigning a value to a variable .This is normally done using the Assignment operator(=)
+example ; 
+    let grade = 9;
+Whilst reassignment means assigning a new value to a variable that already holds a value.
+example
+ let grade = 9;
+ let grade = 5;
+
